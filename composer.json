@@ -1,0 +1,22 @@
+{
+    "name": "kaczka/samochody-amerykanskie-szukaj",
+    "type": "project",
+    "require": {
+        "symfony/http-foundation": "^5.4",
+        "symfony/routing": "^5.4",
+        "symfony/http-kernel": "^5.4",
+        "phpmailer/phpmailer": "^6.8",
+        "doctrine/dbal": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kaczka\\SamochodyAmerykanskieSzukaj\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcin Podraza",
+            "email": "martinpodraza@interia.pl"
+        }
+    ]
+}
